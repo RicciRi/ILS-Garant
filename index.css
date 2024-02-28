@@ -1,0 +1,244 @@
+html,
+body {
+    margin: 0;
+}
+body {
+    padding: 20px 0 0 0;
+    background-color: #313131;
+}
+
+:root {
+    --white-color: #fffafa;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    color: #585656;
+    font-size: 1.1rem;
+}
+
+.bg-color {
+    background-color: #313131;
+}
+
+.bg-grey-color {
+    color: #313131;
+}
+
+.text-muted-style {
+    color: rgb(213, 204, 204);
+}
+
+.empty-box {
+    width: 230px;
+}
+.logo-container {
+    width: 230px;
+    height: 56px;
+    position: absolute;
+    padding: 10px 0 0 10px;
+    left: 0;
+    bottom: -10px;
+    background-image: url('images/logo-bg.png');
+}
+
+.navbar-toggler {
+    background-color: #e5e5e5;
+    border-radius: 50%;
+    padding: 6px;
+}
+.navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+    color: #fffafa;
+}
+.navbar-nav {
+    align-items: end;
+}
+
+.logo {
+    font-weight: 500;
+}
+.logo span {
+    background: linear-gradient(to bottom, #be3326, #fd776f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* HEADER */
+header .container {
+    border-radius: 15px 15px 0 0;
+    padding: 0;
+}
+
+header .navbar-nav {
+    background-color: #313131;
+}
+
+header .navbar-collapse {
+    background-color: #313131;
+}
+
+header .nav-link {
+    color: #e5e5e5;
+    font-size: small;
+    font-weight: 100;
+}
+header .nav-link:hover {
+    color: #fffafa;
+}
+
+/* MAIN */
+
+main .container h1 {
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+
+/* GOAL SECTION */
+
+main .section-our-goal {
+    padding: 20px 50px;
+    margin-bottom: 5rem;
+    border-radius: 0 15px 15px 15px;
+}
+
+main .section-our-goal .button {
+    padding: 20px 20%;
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: none;
+    color: #fffafa;
+    background: linear-gradient(
+        to right,
+        rgba(211, 71, 62, 1),
+        rgba(211, 71, 62, 0.7)
+    );
+    border-radius: 40px;
+}
+
+main .section-our-goal .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 26px;
+}
+
+/* WHY ILS SECTION  */
+
+main .container-why-ILS {
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 80px 50px;
+}
+main .btn {
+    font-weight: 100;
+    height: 58px;
+    width: 100%;
+    background-color: rgba(211, 71, 62, 1);
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.container-why-ILS .button-style {
+    width: 100%;
+}
+
+.container-text .col-lg-6 {
+    padding: 10px;
+}
+.container-useful {
+    margin-top: -20px;
+}
+
+.container-useful .button-style {
+    width: 100%;
+    margin-top: auto;
+}
+
+.container-item .section {
+    border-radius: 15px;
+    padding: 20px;
+}
+.container-content {
+    position: relative;
+}
+.container-content .btn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-height: 67px;
+}
+
+.container-item div {
+    margin: 20px 0;
+}
+
+/*!!!!! SCROLL BAR !!!!!*/
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll {
+    display: flex;
+    justify-content: start;
+    width: 460px;
+    overflow-x: auto;
+}
+
+.section-scroll img {
+    margin: 0 20px;
+}
+
+/*!!!!! FOOTER SECTION  !!!!!*/
+
+footer {
+    border-radius: 15px;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+footer ul {
+    color: grey;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.725rem;
+    color: grey;
+}
+
+footer span {
+    color: red;
+}
+
+/* Padding for xs screens (mobile devices) */
+@media (max-width: 575.98px) {
+    .container {
+        max-width: 300px;
+    }
+}
+
+/* Padding for sm screens (tablets) and up */
+@media (min-width: 576px) {
+}
+
+/* Padding for md screens (desktops) and up */
+@media (min-width: 768px) {
+}
+
+/* Padding for lg screens (large desktops) and up */
+@media (min-width: 992px) {
+}
+
+/* Padding for xl screens (extra large devices) and up */
+@media (min-width: 1200px) {
+}
